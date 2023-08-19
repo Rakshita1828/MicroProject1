@@ -1,0 +1,171 @@
+.banner
+{
+    display:flex;
+    justify-content: space-around;
+    height:70%;
+}
+
+ul{
+    list-style-type:none;
+}
+/*.header
+{
+    color: #282828;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}*/
+/*.d1
+{
+    color: #484848;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+display: flex;
+width: 495px;
+height: 81px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+}*/
+.banner-right
+{
+    width:393.52px;
+    height:442.45px;
+    flex-shrink:0;
+
+}
+.banner-left
+{
+    margin-top:60px;
+
+}
+.banner-left>h1{
+    color: #282828;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 54px */
+}
+
+.banner-left>p
+{
+    color: #484848;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 32px */
+}
+
+.banner-left>h3
+{
+    color: #282828;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 160%; /* 32px */
+
+}
+.banner-left>input
+{
+    color: #888;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 32px */
+border:2px solid black;
+text-align: center;
+height:44px;
+border-radius: 5px;
+}
+
+.banner-left>button
+{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: black;
+height:50px;
+width:150px;
+margin: 20px;
+border-radius: 5px;
+}
+
+.banner-left>h5
+{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+font-weight: bold;
+}
+
+.footer
+{
+    
+    background: var(--the-black, #282828);
+    height: 310px;
+    margin-top:100px;
+
+}
+
+.template
+{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+
+
+}
+
+.footer-left
+{
+    margin:30px;
+}
+
+.footer-left>ul>li
+{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+
+}
+
+.footer-right
+{
+    color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+margin:30px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
